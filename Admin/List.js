@@ -1,5 +1,5 @@
 import { List, ListAction, Text, post, app } from '@List'
-import SyncAltIcon from '@material-ui/icons/SyncAlt';
+import SyncAltIcon from '@mui/icons-material/SyncAlt';
 
 const listActions = () => {
     const syncUsers = ({ setProgress, reloadList }) => {
