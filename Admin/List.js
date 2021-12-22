@@ -62,7 +62,7 @@ const row = (item) => {
 const Users = () => {
     return <List
         title='Users'
-        entity='user'
+        entityType='user'
         headers={headers}
         row={row}
         filters={filters}

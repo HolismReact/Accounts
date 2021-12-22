@@ -9,7 +9,7 @@ const card = (item) => {
 
 const UserBrowser = () => {
     return <Browse
-        entity='user'
+        entityType='user'
         card={card}
     />
 }
