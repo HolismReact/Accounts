@@ -44,16 +44,18 @@ const sorts = [
 
 const headers =
     <>
+        <th>Guid</th>
         <th>Display Name</th>
-        <th>UserName</th>
+        <th>Username</th>
         <th>Email</th>
         <th>LastSyncDate</th>
     </>
 
 const row = (item) => {
     return <>
+        <td>{item.guid}</td>
         <td>{item.displayName}</td>
-        <td>{item.userName}</td>
+        <td>{item.username}</td>
         <td>{item.email}</td>
         <td>{item.lastSyncDate}</td>
     </>

@@ -1,9 +1,9 @@
 import { Browse, Text } from '@Browse';
 
 const card = (item) => {
-    return <>      
-        <div>{item.displayName}</div>
-        <div>{item.userName}</div>
+    return <>
+        <div>{item.username}</div>
+        <div>{item.dispalyName}</div>
     </>
 }
 
